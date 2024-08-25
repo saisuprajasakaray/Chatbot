@@ -23,8 +23,7 @@ https://github.com/your-username/chatbot-project.git
 
 ```
 ```
-cd 
-chatbot-project
+cd chatbot-project
 ```
 
 Install Required Packages:
