@@ -18,28 +18,32 @@ Clone the Repository:
 
 
 git clone
-
+```
 https://github.com/your-username/chatbot-project.git
 
+```
+```
 cd 
 chatbot-project
+```
 
 Install Required Packages:
-
+```
 pip install nltk scikit-learn
-
+```
 Download NLTK Data: Run the following code in Python to download necessary NLTK data:
 
-
+```
 import nltk
 nltk.download("punkt")
+```
 
 **Usage**
 
 Run the Chatbot: Execute the script to start interacting with the chatbot:
-
+```
 python chatbot.py
-
+```
 Interact with the Chatbot: Enter a query in the console and the chatbot will provide a response based on the intent detected.
 
 
@@ -55,7 +59,7 @@ Intent Classification: The Logistic Regression classifier is trained to predict 
 
 Response Generation: Based on the predicted intent, the chatbot selects a random response from the predefined set of responses.
 
-Example
+**Example**
 User Input: "Hi"
 
 Chatbot Response: "Hello"
